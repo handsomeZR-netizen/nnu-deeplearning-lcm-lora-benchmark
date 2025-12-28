@@ -52,3 +52,6 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+# Project specific files
+需求.md
