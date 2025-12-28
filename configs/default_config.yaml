@@ -1,0 +1,28 @@
+# Default experiment configuration
+model:
+  base_model_dir: "models/dreamshaper-7"
+  lcm_lora_dir: "models/lcm-lora-sdv1-5"
+  device: "cuda"
+
+generation:
+  default_steps: 4
+  default_guidance_scale: 1.0
+  default_width: 512
+  default_height: 512
+
+optimizations:
+  attention_slicing: true
+  vae_slicing: true
+  vae_tiling: false
+  xformers: false
+  sdpa: true
+
+benchmark:
+  num_repeats: 3
+  warmup_runs: 1
+
+output:
+  images_dir: "outputs/images"
+  logs_dir: "outputs/logs"
+  reports_dir: "outputs/reports"
+  charts_dir: "outputs/charts"

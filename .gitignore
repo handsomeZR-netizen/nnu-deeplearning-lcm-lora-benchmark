@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+envs/
+venv/
+ENV/
+env/
+
+# Cache directories
+cache/
+*.cache
+
+# Model files (通常很大，不应上传)
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Output files
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.kiro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
