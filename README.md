@@ -1,4 +1,34 @@
-# LCM-LoRA 扩散模型加速系统
+# Nnu Deeplearning Lcm Lora Benchmark
+
+<!-- PORTFOLIO-SNAPSHOT:START -->
+<p align="left">
+  <img src="https://img.shields.io/badge/category-Coursework%20packaged%20as%20a%20public%20artifact-blue" alt="Category" />
+  <img src="https://img.shields.io/badge/status-Public%20portfolio%20artifact-2ea44f" alt="Status" />
+</p>
+
+> Deep learning coursework benchmark for LCM-LoRA image generation, with FID/LPIPS evaluation scripts and experiment configs.
+
+## Project Snapshot
+
+- Category: Coursework packaged as a public artifact
+- Stack: Python, benchmark, coursework, deep-learning, image-generation, lcm-lora
+- Status: Public portfolio artifact
+
+## What This Demonstrates
+
+- Presents the project with a clear purpose, technology stack, and review path.
+- Packages coursework as an inspectable public artifact rather than an unstructured submission.
+- Emphasizes reproducible research, academic writing, or measurable experiment artifacts.
+
+## Quick Start
+
+```bash
+python -m pip install -r requirements.txt && python -m compileall .
+```
+
+<!-- PORTFOLIO-SNAPSHOT:END -->
+
+## Original Documentation
 
 基于 LCM-LoRA 的 Stable Diffusion 实时推理加速与显存优化实验评测系统。
 
